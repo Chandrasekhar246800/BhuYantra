@@ -1,0 +1,108 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling and scroll margins for anchor navigation */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Offset scroll targets to account for sticky header */
+section[id],
+h1[id],
+h2[id],
+h3[id],
+h4[id],
+h5[id],
+h6[id] {
+  scroll-margin-top: 6rem; /* 96px - sticky header height + extra padding */
+}
+
+/* Specific adjustments for better positioning */
+#hero {
+  scroll-margin-top: 4rem; /* Less margin for hero section */
+}
+
+#contact {
+  scroll-margin-top: 5rem; /* Optimal for contact form visibility */
+}
+
+/* Focus styles for accessibility - visible and clear */
+*:focus {
+  outline: 2px solid theme('colors.green.500');
+  outline-offset: 2px;
+}
+
+/* Ensure focus is visible on interactive elements */
+button:focus,
+a:focus,
+input:focus,
+textarea:focus,
+select:focus,
+[tabindex]:focus {
+  outline: 2px solid theme('colors.green.500');
+  outline-offset: 2px;
+  border-radius: theme('borderRadius.sm');
+}
+
+/* Custom focus styles for buttons */
+button:focus-visible {
+  outline: 2px solid theme('colors.green.500');
+  outline-offset: 2px;
+  box-shadow: 0 0 0 4px theme('colors.green.100');
+}
+
+/* Reduced motion preferences - provide graceful fallbacks */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    /* Reduce duration instead of eliminating entirely */
+    animation-duration: 0.15s !important;
+    transition-duration: 0.15s !important;
+    /* Keep smooth scrolling but reduce other animations */
+    animation-iteration-count: 1 !important;
+  }
+  
+  /* Disable bouncing and complex animations */
+  .animate-bounce {
+    animation: none !important;
+  }
+  
+  /* Reduce transforms to just opacity changes where possible */
+  [data-reduced-motion] {
+    transform: none !important;
+  }
+  
+  /* Keep scroll behavior smooth for better UX */
+  html {
+    scroll-behavior: smooth !important;
+  }
+}
+
+/* Focus trap helper - hide content from screen readers when modal is open */
+.focus-trap-active {
+  overflow: hidden;
+}
+
+.focus-trap-active > *:not(.modal-overlay) {
+  filter: blur(1px);
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 6px;
+  background: theme('colors.green.600');
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 4px;
+  z-index: 1000;
+  transition: top 0.3s;
+}
+
+.skip-link:focus {
+  top: 6px;
+}
