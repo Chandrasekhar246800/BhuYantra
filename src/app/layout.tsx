@@ -13,20 +13,11 @@ export const metadata: Metadata = {
     title: 'BhuYantra – Satellite-powered crop health insights',
     description: 'AI-powered satellite monitoring for crop health. Real-time alerts, multilingual support, and precision agriculture insights for farmers.',
     type: 'website',
-    images: [
-      {
-        url: '/og-image.jpg', // TODO: Add actual Open Graph image
-        width: 1200,
-        height: 630,
-        alt: 'BhuYantra - Satellite-powered crop health monitoring',
-      },
-    ],
   },
   twitter: {
     card: 'summary_large_image',
     title: 'BhuYantra – Satellite-powered crop health insights',
     description: 'AI-powered satellite monitoring for crop health. Real-time alerts and multilingual support for farmers.',
-    images: ['/twitter-image.jpg'], // TODO: Add actual Twitter card image
   },
 }
 
