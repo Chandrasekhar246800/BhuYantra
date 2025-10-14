@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useMemo } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
 import { SCROLL_CONFIG, MOTION_VARIANTS } from '@/lib/constants'
 
@@ -144,9 +145,19 @@ export default function Nav() {
           <div className="flex-shrink-0">
             <Link 
               href="#hero"
-              className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded-md"
+              className="flex items-center space-x-3 hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded-md"
             >
-              BhuYantra
+              <Image 
+                src="/BhuYantra.png" 
+                alt="BhuYantra Logo" 
+                width={40}
+                height={40}
+                className="h-10 w-auto"
+                priority
+              />
+              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">
+                BhuYantra
+              </span>
             </Link>
           </div>
 
