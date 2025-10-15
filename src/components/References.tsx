@@ -95,7 +95,7 @@ export default function References() {
       authors: "Tucker, C.J., et al.",
       publication: "Remote Sensing of Environment",
       year: "2019",
-      summary: "Comprehensive study on NDVI applications in crop health monitoring and yield prediction",
+      summary: "Comprehensive study on NDVI applications in crop health monitoring and yield production",
       relevance: "Foundation for our vegetation health algorithms"
     },
     {

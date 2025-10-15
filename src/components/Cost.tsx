@@ -11,7 +11,7 @@ export default function Cost() {
         "Weather alerts & forecasts",
         "SMS notifications",
         "Monthly satellite updates",
-        "Basic yield predictions",
+        "Basic yield productions",
         "Community forum access"
       ],
       limitations: [
@@ -32,7 +32,7 @@ export default function Cost() {
         "Real-time weather integration",
         "WhatsApp + SMS notifications",
         "Bi-weekly satellite updates",
-        "AI-powered yield predictions",
+        "AI-powered yield productions",
         "Pest & disease early warning",
         "Water management recommendations",
         "Market price integration",

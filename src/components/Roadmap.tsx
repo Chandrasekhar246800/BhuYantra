@@ -18,7 +18,7 @@ export default function Roadmap() {
         "Build NDVI/NDWI calculation algorithms",
         "Create basic mobile app and web dashboard",
         "Implement WhatsApp bot for notifications",
-        "Pilot with 100 farmers across 3 districts",
+        "Pilot with 100 farmers across 3 villages",
         "Validate core monitoring capabilities"
       ],
       deliverables: [
@@ -45,7 +45,7 @@ export default function Roadmap() {
       objectives: [
         "Implement advanced ML models for pest detection",
         "Add multilingual support (Hindi, regional languages)",
-        "Develop yield prediction algorithms",
+        "Develop yield production algorithms",
         "Scale to 1000+ farmers across 5 states",
         "Partner with agricultural extension services",
         "Enhance weather integration capabilities"

@@ -74,16 +74,16 @@ export default function Features() {
     },
     {
       id: 6,
-      title: "Yield Prediction & Planning",
+      title: "Yield production & Planning",
       description: "AI-based yield forecasting to help farmers plan harvesting, storage, and marketing strategies.",
       icon: "📈",
       details: [
         "Harvest time optimization",
-        "Yield quantity predictions",
+        "Yield quantity productions",
         "Market timing recommendations",
         "Storage planning assistance"
       ],
-      image: "yield-prediction.jpg"
+      image: "yield-production.jpg"
     },
     {
       id: 7,
@@ -554,7 +554,7 @@ export default function Features() {
       ]
     },
     6: {
-      title: "Yield Prediction & Planning",
+      title: "Yield production & Planning",
       description: "This feature uses AI-driven forecasting to help farmers plan their harvesting, storage, and market strategies with greater confidence. By combining crop growth models, weather data, and market forecasts, it delivers actionable insights for improving profitability and reducing post-harvest losses.",
       keyCapabilities: [
         {
@@ -562,7 +562,7 @@ export default function Features() {
           description: "Predicts the best harvest window using growth models and weather data."
         },
         {
-          title: "Yield Quantity Predictions",
+          title: "Yield Quantity productions",
           description: "AI-based forecasting of expected yield at the field or farm level."
         },
         {
@@ -577,7 +577,7 @@ export default function Features() {
       dataSources: [
         {
           category: "Machine Learning & Deep Learning Models",
-          items: ["Random Forest, SVM, RNN, LSTM for accurate yield predictions"]
+          items: ["Random Forest, SVM, RNN, LSTM for accurate yield productions"]
         },
         {
           category: "Hybrid Crop Growth Models",
@@ -585,7 +585,7 @@ export default function Features() {
         },
         {
           category: "GDU Models",
-          items: ["Track accumulated heat units to optimize harvest maturity predictions"]
+          items: ["Track accumulated heat units to optimize harvest maturity productions"]
         },
         {
           category: "Time-Series Forecasting Models",
@@ -692,7 +692,7 @@ export default function Features() {
           items: ["Tracks daily soil moisture deficits and triggers irrigation when necessary"]
         },
         {
-          category: "Drought Stress Prediction Algorithms",
+          category: "Drought Stress production Algorithms",
           items: ["Forecast soil moisture drop below thresholds to generate alerts"]
         }
       ],
@@ -721,7 +721,7 @@ export default function Features() {
         },
         {
           category: "Data & Modeling Experts",
-          items: ["Hydrological modeling specialists", "Evapotranspiration calculation experts", "Drought prediction specialists"]
+          items: ["Hydrological modeling specialists", "Evapotranspiration calculation experts", "Drought production specialists"]
         },
         {
           category: "Automation & Control",
@@ -773,7 +773,7 @@ export default function Features() {
         },
         {
           category: "Econometric/Supply-Side Models",
-          items: ["Integrate yield forecasts, expected arrivals, and weather impacts for refined predictions"]
+          items: ["Integrate yield forecasts, expected arrivals, and weather impacts for refined productions"]
         }
       ],
       platforms: [

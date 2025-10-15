@@ -69,7 +69,7 @@ export default function Benefits() {
       benefits: [
         {
           title: "Regional Crop Monitoring",
-          description: "Get real-time insights into crop health across districts and states for better planning",
+          description: "Get real-time insights into crop health across villages and states for better planning",
           impact: "State-wide",
           metric: "Coverage"
         },
@@ -77,7 +77,7 @@ export default function Benefits() {
           title: "Food Security Planning",
           description: "Predict yield outcomes and plan food distribution and import/export strategies",
           impact: "95%",
-          metric: "Prediction Accuracy"
+          metric: "production Accuracy"
         },
         {
           title: "Resource Allocation",

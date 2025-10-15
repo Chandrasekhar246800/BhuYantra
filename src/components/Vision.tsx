@@ -86,7 +86,7 @@ export default function Vision() {
   const innovationAreas = [
     {
       area: "Artificial Intelligence",
-      focus: "Advanced ML models for crop health prediction, pest detection, and yield forecasting",
+      focus: "Advanced ML models for crop health production, pest detection, and yield forecasting",
       technologies: ["Computer Vision", "Deep Learning", "Predictive Analytics"],
       potential: "Revolutionize precision agriculture"
     },

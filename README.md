@@ -30,8 +30,8 @@ BhuYantra combines traditional farming wisdom with modern technology to create a
 - Water usage optimization
 - Drought risk assessment
 
-### 📊 **Yield Prediction & Analytics**
-- Machine learning-based crop yield predictions
+### 📊 **Yield production & Analytics**
+- Machine learning-based crop yield productions
 - Market price forecasting
 - Profit margin analysis
 - Risk assessment tools

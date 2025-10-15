@@ -22,7 +22,7 @@ export default function Solution() {
       title: "Weather Integration",
       description: "Localized weather forecasts and climate-based recommendations",
       icon: "🌤️",
-      details: ["7-day forecasts", "Rainfall predictions", "Temperature alerts"]
+      details: ["7-day forecasts", "Rainfall productions", "Temperature alerts"]
     }
   ]
 
@@ -54,7 +54,7 @@ export default function Solution() {
       benefits: [
         "Regional crop health monitoring and trend analysis",
         "Evidence-based agricultural policy formulation",
-        "Resource allocation optimization across districts",
+        "Resource allocation optimization across villages",
         "Food security and yield forecasting capabilities"
       ],
       icon: "🏛️",

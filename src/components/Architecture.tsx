@@ -31,7 +31,7 @@ export default function Architecture() {
         "NDVI/NDWI Computation",
         "Crop Health Analysis",
         "Anomaly Detection",
-        "Yield Prediction Models"
+        "Yield production Models"
       ],
       technologies: "Python, TensorFlow, OpenCV, NumPy",
       color: "purple"
