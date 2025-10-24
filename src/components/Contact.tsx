@@ -234,8 +234,8 @@ export default function Contact() {
                   <span className="text-xl mt-1">💬</span>
                   <div>
                     <p className="text-sm text-gray-600">WhatsApp</p>
-                    <a href="https://wa.me/919876543210" className="text-green-600 hover:text-green-700 font-medium text-sm">
-                      WhatsApp Support
+                    <a href="https://wa.me/917416559286" className="text-green-600 hover:text-green-700 font-medium text-sm">
+                      +91 7416559286
                     </a>
                   </div>
                 </div>
@@ -257,7 +257,7 @@ export default function Contact() {
               <h4 className="text-xl font-semibold text-gray-900 mb-6">Follow Us</h4>
               
               <div className="space-y-3">
-                <a href="#" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
+                <a href="https://www.linkedin.com/in/chandra-sekhar-54040b232/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
                   <span className="text-lg">💼</span>
                   <div>
                     <p className="text-gray-900 font-medium group-hover:text-green-600 text-sm">LinkedIn</p>
@@ -265,15 +265,9 @@ export default function Contact() {
                   </div>
                 </a>
                 
-                <a href="#" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
-                  <span className="text-lg">🐦</span>
-                  <div>
-                    <p className="text-gray-900 font-medium group-hover:text-green-600 text-sm">Twitter</p>
-                    <p className="text-xs text-gray-600">Latest updates</p>
-                  </div>
-                </a>
+               
                 
-                <a href="#" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
+                <a href="https://github.com/Chandrasekhar246800" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
                   <span className="text-lg">🔧</span>
                   <div>
                     <p className="text-gray-900 font-medium group-hover:text-green-600 text-sm">GitHub</p>
@@ -281,13 +275,7 @@ export default function Contact() {
                   </div>
                 </a>
                 
-                <a href="#" className="flex items-center space-x-3 p-2 rounded-lg hover:bg-gray-50 transition-colors group">
-                  <span className="text-lg">📺</span>
-                  <div>
-                    <p className="text-gray-900 font-medium group-hover:text-green-600 text-sm">YouTube</p>
-                    <p className="text-xs text-gray-600">Video tutorials</p>
-                  </div>
-                </a>
+              
                 
                 <a 
                   href="/api/download" 
