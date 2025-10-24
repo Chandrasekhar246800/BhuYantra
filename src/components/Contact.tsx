@@ -1,202 +1,21 @@
 import React from 'react'
 
 export default function Contact() {
-  const teamMembers = [
-    {
-      name: "Dr. Rajesh Kumar",
-      role: "Lead Agricultural Scientist",
-      specialization: "Remote Sensing & Crop Monitoring",
-      experience: "15+ years in agricultural research",
-      education: "PhD in Agricultural Engineering, IIT Delhi",
-      email: "rajesh@bhuyantra.com",
-      avatar: "👨‍🔬"
-    },
-    {
-      name: "Priya Sharma",
-      role: "AI/ML Engineer",
-      specialization: "Machine Learning & Computer Vision",
-      experience: "10+ years in AI development",
-      education: "M.Tech in Computer Science, IISc Bangalore",
-      email: "priya@bhuyantra.com",
-      avatar: "👩‍💻"
-    },
-    {
-      name: "Amit Patel",
-      role: "Full-Stack Developer",
-      specialization: "Web & Mobile App Development",
-      experience: "8+ years in software development",
-      education: "B.Tech in Information Technology, NIT Surat",
-      email: "amit@bhuyantra.com",
-      avatar: "👨‍💻"
-    },
-    {
-      name: "Dr. Sunita Reddy",
-      role: "Agricultural Advisor",
-      specialization: "Sustainable Farming Practices",
-      experience: "20+ years in extension services",
-      education: "PhD in Agronomy, University of Agricultural Sciences",
-      email: "sunita@bhuyantra.com",
-      avatar: "👩‍🌾"
-    }
-  ]
-
-  const supportChannels = [
-    {
-      channel: "Technical Support",
-      description: "Get help with platform usage, troubleshooting, and technical issues",
-      contact: "support@bhuyantra.com",
-      availability: "24/7",
-      responseTime: "2-4 hours",
-      icon: "🛠️"
-    },
-    {
-      channel: "Agricultural Consultation",
-      description: "Expert advice on crop monitoring, farming practices, and agricultural queries",
-      contact: "experts@bhuyantra.com",
-      availability: "Mon-Sat, 9 AM - 6 PM",
-      responseTime: "4-8 hours",
-      icon: "🌾"
-    },
-    {
-      channel: "Partnership Inquiries",
-      description: "Business partnerships, collaborations, and institutional tie-ups",
-      contact: "partnerships@bhuyantra.com",
-      availability: "Business Hours",
-      responseTime: "1-2 business days",
-      icon: "🤝"
-    },
-    {
-      channel: "WhatsApp Support",
-      description: "Quick support and notifications through WhatsApp messaging",
-      contact: "+91 9876543210",
-      availability: "24/7 (Automated)",
-      responseTime: "Instant",
-      icon: "📱"
-    }
-  ]
-
-  const researchPartners = [
-    "Indian Agricultural Research Institute (IARI)",
-    "International Rice Research Institute (IRRI)",
-    "Indian Institute of Science (IISc)",
-    "National Remote Sensing Centre (NRSC)",
-    "Agricultural Universities Network",
-    "CGIAR Research Centers"
-  ]
-
   return (
     <section id="contact" className="py-20 bg-gradient-to-br from-green-50 to-blue-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            Contact & Team Information
+            Get In Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Get in touch with the BhuYantra team for support, partnerships, or to learn more 
-            about how our agricultural technology can transform your farming operations.
+            Have questions about BhuYantra? We&apos;d love to hear from you. Send us a message 
+            and we&apos;ll respond as soon as possible.
           </p>
         </div>
 
-        {/* 1st - Core Team */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Meet Our Core Team
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-6 border border-gray-200 text-center hover:shadow-lg transition-shadow duration-200"
-              >
-                <div className="text-6xl mb-4">{member.avatar}</div>
-                <h4 className="text-lg font-bold text-gray-900 mb-2">
-                  {member.name}
-                </h4>
-                <div className="text-blue-600 font-semibold mb-2">
-                  {member.role}
-                </div>
-                <div className="text-sm text-gray-600 mb-3">
-                  {member.specialization}
-                </div>
-                <div className="text-xs text-gray-500 mb-2">
-                  {member.experience}
-                </div>
-                <div className="text-xs text-gray-500 mb-4">
-                  {member.education}
-                </div>
-                <a
-                  href={`mailto:${member.email}`}
-                  className="text-blue-600 hover:underline text-sm"
-                >
-                  {member.email}
-                </a>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* 2nd - Support Channels */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            Support & Assistance
-          </h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {supportChannels.map((channel, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-xl p-6 border border-gray-200 hover:shadow-lg transition-shadow duration-200"
-              >
-                <div className="flex items-start space-x-4">
-                  <div className="text-4xl">{channel.icon}</div>
-                  <div className="flex-1">
-                    <h4 className="text-lg font-bold text-gray-900 mb-2">
-                      {channel.channel}
-                    </h4>
-                    <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                      {channel.description}
-                    </p>
-                    <div className="space-y-2 text-sm">
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Contact:</span>
-                        <span className="text-blue-600 font-medium">{channel.contact}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Available:</span>
-                        <span className="text-gray-700">{channel.availability}</span>
-                      </div>
-                      <div className="flex justify-between">
-                        <span className="text-gray-500">Response Time:</span>
-                        <span className="text-green-600 font-medium">{channel.responseTime}</span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        {/* 3rd - Research Partners */}
-        <div className="mb-20">
-          <h3 className="text-3xl font-bold text-gray-900 text-center mb-8">
-            Research & Academic Partners
-          </h3>
-          <div className="bg-white rounded-xl p-8 border border-gray-200 shadow-lg">
-            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
-              {researchPartners.map((partner, index) => (
-                <div
-                  key={index}
-                  className="text-sm text-gray-600 bg-gray-50 rounded-lg p-3 hover:bg-gray-100 transition-colors duration-200 text-center"
-                >
-                  {partner}
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-
-        {/* 4th - Contact Form & Social Media */}
+        {/* Contact Form & Contact Information */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
           {/* Contact Form - Takes up 2 columns */}
           <div className="lg:col-span-2">
@@ -322,8 +141,8 @@ export default function Contact() {
                   <span className="text-xl mt-1">🌐</span>
                   <div>
                     <p className="text-sm text-gray-600">Website</p>
-                    <a href="https://bhuyantra.com" className="text-green-600 hover:text-green-700 font-medium text-sm">
-                      bhuyantra.com
+                    <a href="https://bhuyantra.vercel.app" className="text-green-600 hover:text-green-700 font-medium text-sm">
+                      bhuyantra.vercel.app
                     </a>
                   </div>
                 </div>
