@@ -24,6 +24,7 @@ export default function TOC() {
     { id: 'solution', title: 'Solution', description: 'Satellite monitoring system' },
     { id: 'architecture', title: 'Architecture', description: 'System design and structure' },
     { id: 'features', title: 'Features', description: 'Core capabilities and tools' },
+    { id: 'hardware', title: 'Hardware', description: 'IoT devices and sensors' },
     { id: 'benefits', title: 'Benefits', description: 'Value for farmers and agriculture' },
     { id: 'cost', title: 'Cost Analysis', description: 'Investment and pricing model' },
     { id: 'roadmap', title: 'Roadmap', description: '4-phase development plan' },

@@ -16,6 +16,7 @@ export default function Nav() {
     { href: '#solution', label: 'Solution' },
     { href: '#architecture', label: 'Architecture' },
     { href: '#features', label: 'Features' },
+    { href: '#hardware', label: 'Hardware' },
     { href: '#benefits', label: 'Benefits' },
     { href: '#cost', label: 'Cost' },
     { href: '#roadmap', label: 'Roadmap' },

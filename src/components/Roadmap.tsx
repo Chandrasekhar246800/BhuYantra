@@ -18,6 +18,7 @@ export default function Roadmap() {
         "Build NDVI/NDWI calculation algorithms",
         "Create basic mobile app and web dashboard",
         "Implement WhatsApp bot for notifications",
+        "IoT device integration testing (soil sensors, weather station)",
         "Pilot with 100 farmers across 3 villages",
         "Validate core monitoring capabilities"
       ],

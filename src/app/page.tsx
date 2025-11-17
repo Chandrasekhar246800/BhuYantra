@@ -5,6 +5,7 @@ import Problem from '@/components/Problem'
 import Solution from '@/components/Solution'
 import Architecture from '@/components/Architecture'
 import Features from '@/components/Features'
+import Hardware from '@/components/Hardware'
 import Benefits from '@/components/Benefits'
 import Cost from '@/components/Cost'
 import Roadmap from '@/components/Roadmap'
@@ -24,6 +25,7 @@ export default function HomePage() {
         <Solution />
         <Architecture />
         <Features />
+        <Hardware />
         <Benefits />
         <Cost />
         <Roadmap />
