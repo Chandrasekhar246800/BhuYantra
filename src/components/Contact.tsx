@@ -214,8 +214,8 @@ export default function Contact() {
                   <span className="text-xl mt-1">📧</span>
                   <div>
                     <p className="text-sm text-gray-600">Email</p>
-                    <a href="mailto:bhuyantra2468@gmail.com" className="text-green-600 hover:text-green-700 font-medium text-sm">
-                      bhuyantra2468@gmail.com
+                    <a href="mailto:BhuYanthra2468@gmail.com" className="text-green-600 hover:text-green-700 font-medium text-sm">
+                      BhuYanthra2468@gmail.com
                     </a>
                   </div>
                 </div>
@@ -244,8 +244,8 @@ export default function Contact() {
                   <span className="text-xl mt-1">🌐</span>
                   <div>
                     <p className="text-sm text-gray-600">Website</p>
-                    <a href="https://bhuyantra.vercel.app" className="text-green-600 hover:text-green-700 font-medium text-sm">
-                      bhuyantra.vercel.app
+                    <a href="https://BhuYanthra.vercel.app" className="text-green-600 hover:text-green-700 font-medium text-sm">
+                      BhuYanthra.vercel.app
                     </a>
                   </div>
                 </div>

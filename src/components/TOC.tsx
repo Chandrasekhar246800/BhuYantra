@@ -127,8 +127,8 @@ export default function TOC() {
               <button
                 onClick={() => {
                   const link = document.createElement('a')
-                  link.href = '/BhuYantra-final-copy.pdf'
-                  link.download = 'BhuYantra-Overview.pdf'
+                  link.href = '/BhuYanthra-final-copy.pdf'
+                  link.download = 'BhuYanthra-Overview.pdf'
                   link.target = '_blank'
                   document.body.appendChild(link)
                   link.click()

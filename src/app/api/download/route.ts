@@ -5,7 +5,7 @@ import fs from 'fs'
 export async function GET() {
   try {
     // Path to the PDF file in the public directory
-    const filePath = path.join(process.cwd(), 'public', 'BhuYantra-final-copy.pdf')
+    const filePath = path.join(process.cwd(), 'public', 'BhuYanthra-final-copy.pdf')
     
     // Check if file exists
     if (!fs.existsSync(filePath)) {
@@ -19,7 +19,7 @@ export async function GET() {
     return new NextResponse(fileBuffer, {
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'attachment; filename="BhuYantra-Overview.pdf"',
+        'Content-Disposition': 'attachment; filename="BhuYanthra-Overview.pdf"',
         'Content-Length': fileBuffer.length.toString(),
       },
     })

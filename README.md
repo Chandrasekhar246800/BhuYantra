@@ -1,15 +1,15 @@
-# 🌱 BhuYantra - Agricultural Technology Platform
+# 🌱 BhuYanthra - Agricultural Technology Platform
 
-**BhuYantra** is a modern web application built with Next.js that focuses on agricultural technology solutions. The platform provides farmers and agricultural professionals with cutting-edge tools and insights to optimize crop production and farm management.
+**BhuYanthra** is a modern web application built with Next.js that focuses on agricultural technology solutions. The platform provides farmers and agricultural professionals with cutting-edge tools and insights to optimize crop production and farm management.
 
 ## 🚀 Live Demo
 
-- **GitHub Repository:** [https://github.com/Chandrasekhar246800/BhuYantra](https://github.com/Chandrasekhar246800/BhuYantra)
+- **GitHub Repository:** [https://github.com/Chandrasekhar246800/BhuYanthra](https://github.com/Chandrasekhar246800/BhuYanthra)
 - **Local Development:** `http://localhost:3000`
 
 ## 🎯 Project Overview
 
-BhuYantra combines traditional farming wisdom with modern technology to create a comprehensive agricultural platform. The name "BhuYantra" translates to "Earth Machine" in Sanskrit, reflecting our mission to harness technology for better agricultural outcomes.
+BhuYanthra combines traditional farming wisdom with modern technology to create a comprehensive agricultural platform. The name "BhuYanthra" translates to "Earth Machine" in Sanskrit, reflecting our mission to harness technology for better agricultural outcomes.
 
 ## ✨ Features
 
@@ -79,8 +79,8 @@ BhuYantra combines traditional farming wisdom with modern technology to create a
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/Chandrasekhar246800/BhuYantra.git
-   cd BhuYantra
+   git clone https://github.com/Chandrasekhar246800/BhuYanthra.git
+   cd BhuYanthra
    ```
 
 2. **Install Dependencies**
@@ -117,9 +117,9 @@ npm run lint
 ## 📁 Project Structure
 
 ```
-BhuYantra/
+BhuYanthra/
 ├── public/                 # Static assets
-│   └── BhuYantra-final-copy.pdf
+│   └── BhuYanthra-final-copy.pdf
 ├── src/
 │   ├── app/               # Next.js App Router
 │   │   ├── globals.css    # Global styles
@@ -216,7 +216,7 @@ NEXT_PUBLIC_ANALYTICS_ID=your_analytics_id
 
 ## 🤝 Contributing
 
-We welcome contributions to BhuYantra! Here's how you can help:
+We welcome contributions to BhuYanthra! Here's how you can help:
 
 1. **Fork the Repository**
 2. **Create a Feature Branch**
@@ -252,7 +252,7 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 For questions, suggestions, or support:
 
-- **GitHub Issues:** [Create an Issue](https://github.com/Chandrasekhar246800/BhuYantra/issues)
+- **GitHub Issues:** [Create an Issue](https://github.com/Chandrasekhar246800/BhuYanthra/issues)
 - **Email:** Contact through GitHub profile
 - **Documentation:** This README and inline code comments
 
@@ -301,4 +301,4 @@ For questions, suggestions, or support:
 
 **Built with ❤️ for the farming community**
 
-*Empowering agriculture through technology - BhuYantra 2025*
+*Empowering agriculture through technology - BhuYanthra 2025*

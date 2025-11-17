@@ -1,4 +1,4 @@
-# BhuYantra Animation & Functionality Enhancement Summary
+# BhuYanthra Animation & Functionality Enhancement Summary
 
 ## 🎯 Implementation Complete
 
@@ -116,7 +116,7 @@ src/
 
 ## 🚀 Ready for Production
 
-The BhuYantra site now features:
+The BhuYanthra site now features:
 - **Professional animations** that enhance UX without being distracting
 - **Full accessibility compliance** meeting WCAG 2.1 AA standards  
 - **Optimized performance** with 60fps animations and small bundle sizes

@@ -1,4 +1,4 @@
-# BhuYantra - Next.js Project
+# BhuYanthra - Next.js Project
 
 This is a Next.js project with TypeScript, Tailwind CSS, and App Router.
 

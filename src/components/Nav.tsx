@@ -149,7 +149,7 @@ export default function Nav() {
               className="flex items-center space-x-3 hover:opacity-90 transition-opacity focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 rounded-md"
             >
               <Image 
-                src="/BhuYantra.png" 
+                src="/BhuYanthra.png" 
                 alt="BhuYanthra Logo" 
                 width={40}
                 height={40}

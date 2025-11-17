@@ -4,7 +4,7 @@ import nodemailer from 'nodemailer'
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER || 'bhuyantra2468@gmail.com',
+    user: process.env.EMAIL_USER || 'BhuYanthra2468@gmail.com',
     pass: process.env.EMAIL_APP_PASSWORD || 'sxtowyjgcyymggrk',
   },
 })
@@ -20,8 +20,8 @@ interface ContactFormData {
 // Send notification email to admin
 export async function sendAdminNotification(data: ContactFormData) {
   const mailOptions = {
-    from: `"BhuYanthra Contact Form" <bhuyantra2468@gmail.com>`,
-    to: 'bhuyantra2468@gmail.com',
+    from: `"BhuYanthra Contact Form" <BhuYanthra2468@gmail.com>`,
+    to: 'BhuYanthra2468@gmail.com',
     subject: `New Contact Form Submission - ${data.firstName} ${data.lastName}`,
     html: `
       <!DOCTYPE html>
@@ -129,7 +129,7 @@ export async function sendAdminNotification(data: ContactFormData) {
 // Send confirmation email to user
 export async function sendUserConfirmation(data: ContactFormData) {
   const mailOptions = {
-    from: `"BhuYanthra" <bhuyantra2468@gmail.com>`,
+    from: `"BhuYanthra" <BhuYanthra2468@gmail.com>`,
     to: data.email,
     subject: 'Thank you for contacting BhuYanthra - We\'ll be in touch soon!',
     html: `
@@ -234,15 +234,15 @@ export async function sendUserConfirmation(data: ContactFormData) {
               </ul>
               
               <div style="text-align: center;">
-                <a href="https://bhuyantra.vercel.app" class="cta-button">Visit Our Website</a>
+                <a href="https://BhuYanthra.vercel.app" class="cta-button">Visit Our Website</a>
               </div>
               
               <div class="contact-info">
                 <h4 style="margin-top: 0; color: #22c55e;">📞 Contact Information:</h4>
-                <p style="margin: 5px 0;">📧 Email: <a href="mailto:bhuyantra2468@gmail.com">bhuyantra2468@gmail.com</a></p>
+                <p style="margin: 5px 0;">📧 Email: <a href="mailto:BhuYanthra2468@gmail.com">BhuYanthra2468@gmail.com</a></p>
                 <p style="margin: 5px 0;">📱 Phone: <a href="tel:+919876543210">+91 9876543210</a></p>
                 <p style="margin: 5px 0;">💬 WhatsApp: <a href="https://wa.me/919876543210">+91 9876543210</a></p>
-                <p style="margin: 5px 0;">🌐 Website: <a href="https://bhuyantra.vercel.app">bhuyantra.vercel.app</a></p>
+                <p style="margin: 5px 0;">🌐 Website: <a href="https://BhuYanthra.vercel.app">BhuYanthra.vercel.app</a></p>
               </div>
               
               <div class="footer">

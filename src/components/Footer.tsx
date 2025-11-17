@@ -74,8 +74,8 @@ export default function Footer() {
 
   const handlePDFDownload = () => {
     const link = document.createElement('a')
-    link.href = '/BhuYantra-final-copy.pdf'
-    link.download = 'BhuYantra-Overview.pdf'
+    link.href = '/BhuYanthra-final-copy.pdf'
+    link.download = 'BhuYanthra-Overview.pdf'
     link.target = '_blank'
     document.body.appendChild(link)
     link.click()
@@ -94,7 +94,7 @@ export default function Footer() {
                 <span className="text-white font-bold text-lg">🌱</span>
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-green-400 to-blue-500 bg-clip-text text-transparent">
-                BhuYantra
+                BhuYanthra
               </span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md leading-relaxed">
