@@ -214,8 +214,8 @@ export default function Contact() {
                   <span className="text-xl mt-1">📧</span>
                   <div>
                     <p className="text-sm text-gray-600">Email</p>
-                    <a href="mailto:BhuYanthra2468@gmail.com" className="text-green-600 hover:text-green-700 font-medium text-sm">
-                      BhuYanthra2468@gmail.com
+                    <a href="mailto:bhuyanthra246800@gmail.com" className="text-green-600 hover:text-green-700 font-medium text-sm">
+                      bhuyanthra246800@gmail.com
                     </a>
                   </div>
                 </div>
