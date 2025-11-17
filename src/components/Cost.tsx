@@ -358,7 +358,7 @@ export default function Cost() {
               30-Day Money-Back Guarantee
             </h4>
             <p className="text-gray-600 mb-6">
-              Try BhuYantra risk-free. If you&apos;re not satisfied within the first 30 days, 
+              Try BhuYanthra risk-free. If you&apos;re not satisfied within the first 30 days, 
               we&apos;ll refund your money completely.
             </p>
             <button className="bg-green-500 text-white font-semibold px-8 py-3 rounded-lg hover:bg-green-600 transition-colors duration-200">

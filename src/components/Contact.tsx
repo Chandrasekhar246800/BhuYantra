@@ -76,7 +76,7 @@ export default function Contact() {
             Get In Touch
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Have questions about BhuYantra? We&apos;d love to hear from you. Send us a message 
+            Have questions about BhuYanthra? We&apos;d love to hear from you. Send us a message 
             and we&apos;ll respond as soon as possible.
           </p>
         </div>
@@ -300,7 +300,7 @@ export default function Contact() {
             Ready to Transform Your Agriculture?
           </h3>
           <p className="text-green-100 mb-8 max-w-2xl mx-auto">
-            Join thousands of farmers who are already using BhuYantra to increase yields, 
+            Join thousands of farmers who are already using BhuYanthra to increase yields, 
             reduce costs, and build sustainable farming practices. Get started today!
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

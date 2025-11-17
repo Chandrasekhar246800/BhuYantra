@@ -172,7 +172,7 @@ export default function Hardware() {
             Hardware Components
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Complete breakdown of IoT devices and sensors that power BhuYantra&apos;s real-time 
+            Complete breakdown of IoT devices and sensors that power BhuYanthra&apos;s real-time 
             monitoring capabilities, from field-level sensors to advanced aerial imaging systems.
           </p>
         </div>

@@ -338,7 +338,7 @@ export default function Vision() {
                 Commitment to Global Sustainability
               </h4>
               <p className="text-gray-600 leading-relaxed">
-                BhuYantra is committed to contributing meaningfully to the UN Sustainable 
+                BhuYanthra is committed to contributing meaningfully to the UN Sustainable 
                 Development Goals through innovative agricultural technology that creates 
                 economic, social, and environmental value for communities worldwide.
               </p>

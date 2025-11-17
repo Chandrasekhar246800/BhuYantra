@@ -20,7 +20,7 @@ interface ContactFormData {
 // Send notification email to admin
 export async function sendAdminNotification(data: ContactFormData) {
   const mailOptions = {
-    from: `"BhuYantra Contact Form" <bhuyantra2468@gmail.com>`,
+    from: `"BhuYanthra Contact Form" <bhuyantra2468@gmail.com>`,
     to: 'bhuyantra2468@gmail.com',
     subject: `New Contact Form Submission - ${data.firstName} ${data.lastName}`,
     html: `
@@ -87,7 +87,7 @@ export async function sendAdminNotification(data: ContactFormData) {
           <div class="container">
             <div class="header">
               <h1 style="margin: 0;">🌾 New Contact Form Submission</h1>
-              <p style="margin: 10px 0 0 0; opacity: 0.9;">BhuYantra - Smart Agriculture Platform</p>
+              <p style="margin: 10px 0 0 0; opacity: 0.9;">BhuYanthra - Smart Agriculture Platform</p>
             </div>
             <div class="content">
               <div class="field">
@@ -129,9 +129,9 @@ export async function sendAdminNotification(data: ContactFormData) {
 // Send confirmation email to user
 export async function sendUserConfirmation(data: ContactFormData) {
   const mailOptions = {
-    from: `"BhuYantra" <bhuyantra2468@gmail.com>`,
+    from: `"BhuYanthra" <bhuyantra2468@gmail.com>`,
     to: data.email,
-    subject: 'Thank you for contacting BhuYantra - We\'ll be in touch soon!',
+    subject: 'Thank you for contacting BhuYanthra - We\'ll be in touch soon!',
     html: `
       <!DOCTYPE html>
       <html>
@@ -205,12 +205,12 @@ export async function sendUserConfirmation(data: ContactFormData) {
           <div class="container">
             <div class="header">
               <h1 style="margin: 0; font-size: 32px;">🌾 Thank You for Contacting Us!</h1>
-              <p style="margin: 10px 0 0 0; opacity: 0.9; font-size: 18px;">BhuYantra - Smart Agriculture Platform</p>
+              <p style="margin: 10px 0 0 0; opacity: 0.9; font-size: 18px;">BhuYanthra - Smart Agriculture Platform</p>
             </div>
             <div class="content">
               <p style="font-size: 18px; margin-bottom: 20px;">Dear <strong>${data.firstName} ${data.lastName}</strong>,</p>
               
-              <p>Thank you for reaching out to BhuYantra! We have successfully received your message and greatly appreciate your interest in our smart agriculture platform.</p>
+              <p>Thank you for reaching out to BhuYanthra! We have successfully received your message and greatly appreciate your interest in our smart agriculture platform.</p>
               
               <div class="info-box">
                 <p style="margin: 0;"><strong>⏰ Response Time:</strong> Our team will review your inquiry and get back to you within <strong>24-48 hours</strong>.</p>
@@ -221,7 +221,7 @@ export async function sendUserConfirmation(data: ContactFormData) {
                 <p style="margin-bottom: 0; white-space: pre-wrap;">${data.message}</p>
               </div>
               
-              <p>In the meantime, feel free to explore our platform and learn more about how BhuYantra can help transform your agricultural operations with:</p>
+              <p>In the meantime, feel free to explore our platform and learn more about how BhuYanthra can help transform your agricultural operations with:</p>
               
               <ul style="line-height: 1.8;">
                 <li>🛰️ Real-time Crop Health Monitoring</li>
@@ -246,7 +246,7 @@ export async function sendUserConfirmation(data: ContactFormData) {
               </div>
               
               <div class="footer">
-                <p><strong>BhuYantra Team</strong></p>
+                <p><strong>BhuYanthra Team</strong></p>
                 <p style="font-style: italic; margin-top: 10px;">"Empowering farmers with smart technology for a sustainable future"</p>
                 <p style="margin-top: 20px; font-size: 12px;">This is an automated confirmation email. Please do not reply to this message.</p>
               </div>

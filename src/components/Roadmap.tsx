@@ -107,7 +107,7 @@ export default function Roadmap() {
         "Expand to neighboring countries",
         "Research next-gen agricultural technologies",
         "Build agricultural ecosystem partnerships",
-        "Establish BhuYantra as market leader"
+        "Establish BhuYanthra as market leader"
       ],
       deliverables: [
         "Next-generation technology integration",
@@ -184,7 +184,7 @@ export default function Roadmap() {
             Development Roadmap
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            Our strategic 4-phase roadmap to transform BhuYantra from concept to 
+            Our strategic 4-phase roadmap to transform BhuYanthra from concept to 
             market-leading agricultural technology platform, serving thousands of farmers across India.
           </p>
         </div>

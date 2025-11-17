@@ -106,7 +106,7 @@ export default function Hero() {
             variants={itemVariants}
           >
             <p className="text-lg sm:text-xl text-gray-800 leading-relaxed">
-              BhuYantra uses AI and satellite data to detect crop stress and alert farmers 
+              BhuYanthra uses AI and satellite data to detect crop stress and alert farmers 
               via a multilingual mobile app and chatbot, providing real-time NDVI/NDWI insights 
               for precision agriculture.
             </p>
@@ -159,7 +159,7 @@ export default function Hero() {
 
           {/* Hidden descriptions for screen readers */}
           <p id="get-started-description" className="sr-only">
-            Click to scroll to the features section and explore BhuYantra&apos;s capabilities
+            Click to scroll to the features section and explore BhuYanthra&apos;s capabilities
           </p>
           <p id="learn-more-description" className="sr-only">
             Click to scroll to the problem section and learn about the challenges we&apos;re addressing

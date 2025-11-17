@@ -164,7 +164,7 @@ export default function Benefits() {
             Impact & Benefits
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            BhuYantra creates measurable value for every stakeholder in the agricultural 
+            BhuYanthra creates measurable value for every stakeholder in the agricultural 
             ecosystem, from individual farmers to national policymakers.
           </p>
         </div>
@@ -288,7 +288,7 @@ export default function Benefits() {
               Calculate Your Potential Savings
             </h3>
             <p className="text-green-100 mb-8 max-w-2xl mx-auto">
-              See how BhuYantra can improve your yields and reduce costs based on your farm size and crop type.
+              See how BhuYanthra can improve your yields and reduce costs based on your farm size and crop type.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
               <div className="bg-white/20 rounded-lg p-6 text-center">

@@ -912,7 +912,7 @@ export default function Features() {
             Comprehensive Features
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            BhuYantra offers a complete suite of features designed to address every aspect 
+            BhuYanthra offers a complete suite of features designed to address every aspect 
             of modern crop monitoring and farm management, from satellite analysis to 
             community support.
           </p>

@@ -91,7 +91,7 @@ export default function Solution() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            BhuYantra: The Smart Solution
+            BhuYanthra: The Smart Solution
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed mb-8">
             A farmer-centric platform that leverages satellite technology and AI to provide 
@@ -137,7 +137,7 @@ export default function Solution() {
         {/* How It Works */}
         <div className="mb-20">
           <h3 className="text-3xl font-bold text-gray-900 text-center mb-12">
-            How BhuYantra Works
+            How BhuYanthra Works
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
             {technicalApproach.map((step, index) => (
@@ -216,7 +216,7 @@ export default function Solution() {
             Ready to Transform Agriculture?
           </h3>
           <p className="text-green-100 mb-6 max-w-2xl mx-auto">
-            Join thousands of farmers already using BhuYantra to increase yields, 
+            Join thousands of farmers already using BhuYanthra to increase yields, 
             reduce costs, and build sustainable farming practices.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

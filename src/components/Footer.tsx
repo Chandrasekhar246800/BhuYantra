@@ -189,7 +189,7 @@ export default function Footer() {
             <div>
               <h3 className="text-lg font-semibold mb-2 text-white">Stay Updated</h3>
               <p className="text-gray-300 text-sm">
-                Get the latest updates on agricultural technology and BhuYantra developments.
+                Get the latest updates on agricultural technology and BhuYanthra developments.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3">
@@ -212,7 +212,7 @@ export default function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             {/* Copyright */}
             <div className="text-gray-400 text-sm">
-              © {currentYear} BhuYantra. All rights reserved. Made with 💚 for sustainable agriculture.
+              © {currentYear} BhuYanthra. All rights reserved. Made with 💚 for sustainable agriculture.
             </div>
 
             {/* Social Links */}

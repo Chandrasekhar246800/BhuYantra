@@ -122,7 +122,7 @@ export default function TOC() {
                 📄 Complete Project Documentation
               </h4>
               <p className="text-gray-600 mb-4 text-sm">
-                Download our comprehensive BhuYantra overview with detailed technical specifications and project insights.
+                Download our comprehensive BhuYanthra overview with detailed technical specifications and project insights.
               </p>
               <button
                 onClick={() => {

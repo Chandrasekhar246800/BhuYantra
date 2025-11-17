@@ -120,7 +120,7 @@ export default function Architecture() {
             System Architecture
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            BhuYantra is built on a robust, scalable architecture that integrates 
+            BhuYanthra is built on a robust, scalable architecture that integrates 
             satellite technology, machine learning, and user-friendly interfaces 
             to deliver accurate crop monitoring insights.
           </p>

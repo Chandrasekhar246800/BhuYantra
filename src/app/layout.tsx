@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://bhuyantra.vercel.app'),
-  title: 'BhuYantra – Satellite-powered crop health insights',
-  description: 'BhuYantra uses AI and satellite data to detect crop stress and alert farmers via a multilingual mobile app and chatbot. Providing real-time NDVI/NDWI insights for every farmer.',
+  title: 'BhuYanthra – Satellite-powered crop health insights',
+  description: 'BhuYanthra uses AI and satellite data to detect crop stress and alert farmers via a multilingual mobile app and chatbot. Providing real-time NDVI/NDWI insights for every farmer.',
   keywords: 'satellite imagery, crop health monitoring, NDVI, NDWI, precision agriculture, AI farming, crop stress detection, ISRO Bhuvan, Sentinel-2, multilingual chatbot',
   icons: {
     icon: '/BhuYantra.png',

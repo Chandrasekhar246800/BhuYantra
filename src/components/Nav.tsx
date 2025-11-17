@@ -150,14 +150,14 @@ export default function Nav() {
             >
               <Image 
                 src="/BhuYantra.png" 
-                alt="BhuYantra Logo" 
+                alt="BhuYanthra Logo" 
                 width={40}
                 height={40}
                 className="h-10 w-auto"
                 priority
               />
-              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">
-                BhuYantra
+              <span className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
+                BhuYanthra
               </span>
             </Link>
           </div>

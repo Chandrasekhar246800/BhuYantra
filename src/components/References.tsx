@@ -187,7 +187,7 @@ export default function References() {
             References & Acknowledgments
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            BhuYantra builds upon the contributions of numerous organizations, researchers, 
+            BhuYanthra builds upon the contributions of numerous organizations, researchers, 
             and open-source communities. We acknowledge their invaluable work in advancing 
             agricultural technology and making this project possible.
           </p>
@@ -256,7 +256,7 @@ export default function References() {
                   <div className="lg:col-span-1">
                     <div className="bg-blue-50 rounded-lg p-4 border-l-4 border-blue-400">
                       <h5 className="text-sm font-semibold text-blue-800 mb-2">
-                        Relevance to BhuYantra
+                        Relevance to BhuYanthra
                       </h5>
                       <p className="text-sm text-blue-700">
                         {reference.relevance}
@@ -302,7 +302,7 @@ export default function References() {
                   </div>
                 </div>
                 <div className="bg-gray-50 rounded-lg p-3 border-l-4 border-green-400">
-                  <span className="text-xs font-medium text-gray-500 uppercase">Usage in BhuYantra</span>
+                  <span className="text-xs font-medium text-gray-500 uppercase">Usage in BhuYanthra</span>
                   <div className="text-sm font-medium text-gray-800 mt-1">
                     {source.usage}
                   </div>
@@ -345,7 +345,7 @@ export default function References() {
               Attribution & Compliance
             </h4>
             <p className="text-gray-600 leading-relaxed mb-6 max-w-4xl mx-auto">
-              BhuYantra is built with gratitude upon the shoulders of giants. We acknowledge 
+              BhuYanthra is built with gratitude upon the shoulders of giants. We acknowledge 
               and respect the intellectual property, licenses, and terms of use of all the 
               technologies, data sources, and research that enable our platform. We are 
               committed to proper attribution, license compliance, and giving back to the 
@@ -371,7 +371,7 @@ export default function References() {
         {/* Citation Information */}
         <div className="text-center bg-gray-100 rounded-2xl p-8">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
-            How to Cite BhuYantra
+            How to Cite BhuYanthra
           </h3>
           <div className="bg-white rounded-lg p-6 border border-gray-200 max-w-4xl mx-auto">
             <div className="text-left font-mono text-sm bg-gray-50 rounded-lg p-4 border">
@@ -379,7 +379,7 @@ export default function References() {
                 <strong>APA Format:</strong>
               </div>
               <div className="text-gray-700">
-                BhuYantra Development Team. (2024). <em>BhuYantra: Satellite-based Crop Health Monitoring Platform</em>. 
+                BhuYanthra Development Team. (2024). <em>BhuYanthra: Satellite-based Crop Health Monitoring Platform</em>. 
                 Retrieved from [URL]
               </div>
               <div className="mt-4 mb-2">
